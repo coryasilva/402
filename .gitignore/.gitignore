@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Required</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:800" />
+	<style>
+	/* Globals */
+	html, body { font-family: Georgia, Times, "Times New Roman", serif }
+	body {
+		background: url(402background.png) no-repeat right top fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	
+	/* Typography */
+	h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans', sans-serif; font-weight: 800 }
+	
+	/* Bootstrap Overrides */
+	.lead { font-style: italic }
+	.jumbotron { background-color: transparent }
+	</style>
+</head>
+<body>
+    <div class="container">
+		<div class="jumbotron">
+			<h1 class="display-3">402</h1>
+			<p class="lead">Payment Required</p>
+			<blockquote class="blockquote">
+			If you wanna look good and not be bummy<br>
+			Girl, you better give me that money!
+			 <footer class="blockquote-footer">Russell Jones aka <cite title="Source Title">ODB</cite></footer>
+			</blockquote>
+		</div>
+    </div>
+</body>
+</html>
